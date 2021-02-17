@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@1..900&display=swap');
+
+  
+  
+html, body {
+  margin: 0;
+  padding: 0;
+
+}
+canvas {
+  display: block;
+}
+.navbar{
+  display:block;
+    float: right;
+  position:fixed;
+top:0;
+z-index: 1;
+    width:100%;
+font-size:250%;
+  background-color:#ffffff;
+ padding: 0;
+margin: 0;
+  display: inline-block;
+}
+.spanA,.spanB,.spanC,.spanD,.spanE{
+   top: 50%;
+   background: -webkit-linear-gradient(left,#ff0000,#ffff00,#00ff0,#00ffff,#0000ff,#ff00ff);
+    background: -o-linear-gradient(right,red,red, orange, yellow, green, cyan, blue, violet);
+    background: -moz-linear-gradient(right,red,red, orange, yellow, green, cyan, blue, violet);
+    background: linear-gradient(to right,red,red, orange , yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  font-family: "Hepta Slab";
+ 
+}
+.header{
+  white-space: nowrap;
+
+        overflow-x: auto;
+  display: inline-block;
+background-image:linear-gradient(45deg,#ff0000,#ffff00,#00ff00,#00ffff,#0000ff,#ff00ff);
+  background-repeat: no-repeat;
+text-align: center;
+  height:40vh;
+width:100%;
+ border-radius: 15% 20%;
+  border: 4px solid red;
+  animation-name: example;
+  animation-duration: 1s;
+ animation-iteration-count: infinite;
+  }
+.spanA{
+font-size: 600%;
+
+animation: 3s infinite variation;
+  animation-delay: 0s;
+}
+.spanB{
+font-size: 600%;
+animation: 3s infinite variation;
+  animation-delay: 0.4s;
+}
+.spanC{
+font-size: 600%;
+animation: 3s infinite variation;
+  animation-delay: 0.8s;
+}
+.spanD{
+font-size: 600%;
+animation: 3s infinite variation;
+  animation-delay: 1.2s;
+}
+.spanE{
+font-size: 600%;
+animation: 3s infinite variation;
+  animation-delay: 1.6s;
+}
+@keyframes example {
+  0%{
+    background-image:linear-gradient(45deg,#ff00ff,#ff0000,#ffff00,#00ff00,#00ffff,#0000ff);
+  }
+  16.66666666666667%{
+    background-image:linear-gradient(45deg,#0000ff,#ff00ff,#ff0000,#ffff00,#00ff00,#00ffff);
+  }
+  33.33333333333334%{
+    background-image:linear-gradient(45deg,#00ffff,#0000ff,#ff00ff,#ff0000,#ffff00,#00ff00);
+  }
+  50%{
+    background-image:linear-gradient(45deg,#00ff00,#00ffff,#0000ff,#ff00ff,#ff0000,#ffff00);
+  }
+  66.66666666666667%{
+background-image:linear-gradient(45deg,#ffff00,#00ff00,#00ffff,#0000ff,#ff00ff,#ff0000);
+  }
+  83.33333333333334%{
+    background-image:linear-gradient(45deg,#ff0000,#ffff00,#00ff00,#00ffff,#0000ff,#ff00ff);
+  }
+  100%{
+    background-image:linear-gradient(45deg,#ff00ff,#ff0000,#ffff00,#00ff00,#00ffff,#0000ff);
+  }
+}
+.card{
+ background-image:radial-gradient(#ffffff,#f5f5f5,#f0f0f0,#ebebeb,#909090,#000000);
+  padding-top: 5%;
+ padding-right: 25%;
+ padding-bottom: 5%;
+ padding-left: 25%;
+ border-radius: 15% 20%;
+  box-shadow: 5px 10px 30px;
+   font-size: 30px;
+  border: 4px solid;
+}
+font{
+  display: inline-block;
+  text-align: right;
+  right: 0; 
+  font-size: 50%; 
+  font-family: 'Pacifico', cursive;
+}
+@keyframes variation {
+ 0% {
+   font-size:450%;
+   font-weight:100;
+ }
+50% {
+  font-size:600%;
+  font-weight:900;
+ }
+100% {
+  font-size:450%;
+  font-weight:100;
+ }
+}
+#1user{
+  float:right;
+}
+i{
+  padding-right: 5%;
+  padding-top: 3%;
+float:left;  
+  }
+.usernm{
+  padding-left: 10%;
+  }
+iframe{
+ /* padding-top: 10%;
+  padding-left: 10%;*/
+  height:100vh;
+  position:fixed;
+bottom:0;
+  left:0;
+  width:100%;
+  display: none;
+   background-color:white;
+  overflow: scroll;
+}
+/* safari syntax */
+
+:-webkit-full-screen {
+
+  background-color: white;
+
+}
+
+/* IE11 */
+
+:-ms-fullscreen {
+
+  background-color: white;
+
+}
+
+/* Standard syntax */
+
+:fullscreen {
+
+  background-color: white;
+
+}
+
+/* Style the button */
+
+button {
+
+  padding: 20px;
+
+  font-size: 20px;
+
+}
