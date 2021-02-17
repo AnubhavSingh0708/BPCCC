@@ -2,6 +2,8 @@
   "background_color": "#c0c0c0",
   "description": "Shows random fox pictures. Hey, at least it isn't cats.",
   "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color":"#ff0000",
   "icons": [
     {
       "src": "bpccc.png",
