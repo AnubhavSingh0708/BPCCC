@@ -1,0 +1,15 @@
+{
+  "background_color": "#c0c0c0",
+  "description": "Shows random fox pictures. Hey, at least it isn't cats.",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "bpccc.png",
+      "sizes": "400x400",
+      "type": "image/png"
+    }
+  ],
+  "name": "Boro Party Chuta Chuti Club",
+  "short_name": "BPCCC",
+  "start_url": "/BPCCC/index.html"
+}
