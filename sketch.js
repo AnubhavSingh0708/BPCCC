@@ -176,5 +176,7 @@ function openPaint(){
 
 }
 function hidePaint(){
+  pai = document.getElementById("paintFrame");
   pai.style.display ="none";
+  document.getElementById("nav").style.display="block";
   }
