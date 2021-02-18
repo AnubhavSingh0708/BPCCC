@@ -1,4 +1,5 @@
 var greeting;
+var pai;
   var user;
   function setCookie(cname,cvalue,exdays) {
   var d = new Date();
@@ -156,7 +157,7 @@ document.getElementById("nav").style.backgroundColor='#ff00ff';
   }, 2000);
 }
 function openPaint(){
-  var pai = document.getElementById("paintFrame");
+  pai = document.getElementById("paintFrame");
   pai.style.display = "block";
   document.getElementById("nav").style.display="none";
    //if (pai.requestFullscreen) {
@@ -174,3 +175,6 @@ function openPaint(){
  // }
 
 }
+function hidePaint(){
+  pai.style.display ="none";
+  }
