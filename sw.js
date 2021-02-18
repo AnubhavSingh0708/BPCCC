@@ -7,8 +7,6 @@ self.addEventListener('install', (e) => {
 '/BPCCC/sketch.js',
         '/BPCCC/script.js',
       '/BPCCC/style.css',
-      'https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js',
-      'https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.min.js',
     ])),
   );
 });
