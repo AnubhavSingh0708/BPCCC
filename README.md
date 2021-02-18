@@ -1,4 +1,4 @@
-# BPCCC
+# BPCCC<img src="bpccc.png" height="40vh"></img> 
 This is a site which will has fun activities and interactive user interface 
 # [live demo](https://anubhavsingh0708.github.io/BPCCC)
 ## made using 
