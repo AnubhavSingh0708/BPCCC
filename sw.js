@@ -4,6 +4,7 @@ self.addEventListener('install', (e) => {
       '/BPCCC/',
       '/BPCCC/index.html',
       '/BPCCC/index.js',
+'/BPCCC/sketch.js',
         '/BPCCC/script.js',
       '/BPCCC/style.css',
       'https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js',
