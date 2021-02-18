@@ -2,6 +2,7 @@ self.addEventListener('install', (e) => {
   e.waitUntil(
     caches.open('fox-store').then((cache) => cache.addAll([
       '/BPCCC/',
+      '/BPCCC/index.html',
       '/BPCCC/index.js',
         '/BPCCC/script.js',
       '/BPCCC/style.css',
