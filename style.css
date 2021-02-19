@@ -32,6 +32,7 @@ margin: 0;
 }
 .spanA,.spanB,.spanC,.spanD,.spanE{
   vertical-align: middle;
+    padding-top: 30%;
    top: 30%;
   bottom:30%;
    background: -webkit-linear-gradient(left,#ff0000,#ffff00,#00ff0,#00ffff,#0000ff,#ff00ff);
