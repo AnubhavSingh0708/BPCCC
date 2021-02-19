@@ -45,10 +45,7 @@ margin: 0;
  
 }
 .header{
-  white-space: nowrap;
 vertical-align: middle;
-        overflow-x: auto;
-  display: inline-block;
 background-image:linear-gradient(45deg,#ff0000,#ffff00,#00ff00,#00ffff,#0000ff,#ff00ff);
   background-repeat: no-repeat;
 text-align: center;
