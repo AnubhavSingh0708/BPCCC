@@ -113,6 +113,7 @@ background-image:linear-gradient(45deg,#ffff00,#00ff00,#00ffff,#0000ff,#ff00ff,#
   box-shadow: 5px 10px 30px;
    font-size: 30px;
   border: 4px solid;
+  heigt:20vh;
 }
 font{
   display: inline-block;
