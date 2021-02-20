@@ -13,6 +13,7 @@ html, body {
   padding: 0;
 background-image:linear-gradient(45deg,#ff0000,#ffff00,#00ff00,#00ffff,#0000ff,#ff00ff);
   background-repeat: no-repeat;
+   background-attachment: fixed;
   animation-name: examplee;
   animation-duration: 1s;
  animation-iteration-count: infinite;
