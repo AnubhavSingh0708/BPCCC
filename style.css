@@ -10,7 +10,7 @@ html, body {
   padding: 0;
 background-image:linear-gradient(45deg,#ff0000,#ffff00,#00ff00,#00ffff,#0000ff,#ff00ff);
   background-repeat: no-repeat;
-  animation-name: example;
+  animation-name: examplee;
   animation-duration: 1s;
  animation-iteration-count: infinite;
 }
@@ -112,6 +112,29 @@ background-image:linear-gradient(45deg,#ffff00,#00ff00,#00ffff,#0000ff,#ff00ff,#
     background-image:linear-gradient(45deg,#ff00ff,#ff0000,#ffff00,#00ff00,#00ffff,#0000ff);
   }
 }
+@keyframes examplee {
+  0%{
+    background-image:radial-gradient(#ff00ff,#ff0000,#ffff00,#00ff00,#00ffff,#0000ff);
+  }
+  16.66666666666667%{
+    background-image:radial-gradient(#0000ff,#ff00ff,#ff0000,#ffff00,#00ff00,#00ffff);
+  }
+  33.33333333333334%{
+    background-image:radial-gradient(#00ffff,#0000ff,#ff00ff,#ff0000,#ffff00,#00ff00);
+  }
+  50%{
+    background-image:radial-gradient(#00ff00,#00ffff,#0000ff,#ff00ff,#ff0000,#ffff00);
+  }
+  66.66666666666667%{
+background-image:radial-gradient(#ffff00,#00ff00,#00ffff,#0000ff,#ff00ff,#ff0000);
+  }
+  83.33333333333334%{
+    background-image:radial-gradient(#ff0000,#ffff00,#00ff00,#00ffff,#0000ff,#ff00ff);
+  }
+  100%{
+    background-image:radial-gradient(#ff00ff,#ff0000,#ffff00,#00ff00,#00ffff,#0000ff);
+  }
+}
 .card{
   padding-top: 5%;
 
@@ -127,6 +150,12 @@ background-image:linear-gradient(45deg,#ffff00,#00ff00,#00ffff,#0000ff,#ff00ff,#
    font-size: 30px;
   border: 4px solid;
   heigt:30vh;
+}
+card:hover{
+  background-image:radial-gradient(#000000,#909090,#ebebeb,#f0f0f0,#f5f5f5,#ffffff);
+}
+card1:hover{
+  background-image:radial-gradient(#000000,#909090,#ebebeb,#f0f0f0,#f5f5f5,#ffffff);
 }
 .card1{
   padding-top: 5%;
