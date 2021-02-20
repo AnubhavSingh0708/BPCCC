@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@1..900&display=swap');
 .exit{
   position:fixed;
-  top:0;
+  bottom:0;
  left:0;
   display:block;
   }
