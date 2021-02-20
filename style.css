@@ -31,9 +31,9 @@ margin: 0;
   display: inline-block;
 }
 .spanA,.spanB,.spanC,.spanD,.spanE{
-    padding-bottom: 10%;
+    padding-bottom: 8%;
   vertical-align: middle;
-    padding-top: 10%;
+    padding-top: 8%;
    top: 30%;
   bottom:30%;
    background: -webkit-linear-gradient(left,#ff0000,#ffff00,#00ff0,#00ffff,#0000ff,#ff00ff);
