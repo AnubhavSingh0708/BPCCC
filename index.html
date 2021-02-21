@@ -24,8 +24,8 @@
   <body onload="checkCookie()">
 <iframe src="https://editor.p5js.org/anubhav0708/present/rFQ1jbrqN" id="paintFrame"></iframe>
     <br><br><br>
-    <div class="exit" onclick="hidePaint()">
-    <i class="fas fa-times"></i></div>
+    <div align="right" class="exit">
+   <span onclick="hidePaint()"> <i class="fas fa-times"></i></span></div>
     <div class="navbar" id="nav">
     
       BPCCC <font class="usernm" id="1user"></font>
@@ -47,7 +47,17 @@
        </div><br>
      <div align="left">
     <div data-aos="fade-left" class="card" id="border3"><i class="far fa-comments"></i>
-    Chat with BPCCC
+    Chat with BPCCC 
+      <form>
+
+  <div class="group">
+
+    <input id="question" type="text" placeholder="write your message here"/>
+<button onclick="tell()">
+  <i class="fas fa-paper-plane"></i>
+  </button>
+  </div> 
+        </form>
     </div>
        </div><br>
      <div align="right">
