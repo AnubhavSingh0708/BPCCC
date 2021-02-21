@@ -254,3 +254,62 @@ button {
   font-size: 20px;
 
 }
+form {
+
+  .group {
+
+    margin-bottom: 16px;
+
+ input {
+
+      display: block;
+
+      margin-bottom: 8px;
+
+      
+
+      &:focus {
+
+        + span {
+
+          background: #f4f4f4;
+
+          border-radius: 4px;
+
+          display: inline-block;
+
+          padding: 4px 8px;
+
+          position: relative;
+
+          
+
+          &:before {
+
+            border-top: 6px solid transparent;
+
+            border-bottom: 6px solid #f4f4f4;
+
+            border-left: 6px solid transparent;
+
+            border-right: 6px solid transparent;
+
+            content: "";
+
+            position: absolute;
+
+            top: -12px; left: 12px;
+
+            width: 0; height: 0;
+
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
