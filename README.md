@@ -31,3 +31,5 @@ inserting Google translate using
  * manifest it to look like native app. 
  ### cards 
  using css 
+###license 
+[GNU General Public License v3.0](https://github.com/AnubhavSingh0708/BPCCC/blob/main/LICENSE)
