@@ -14,6 +14,7 @@ self.addEventListener('install', (e) => {
 
 '/BPCCC/script.js',
       '/BPCCC/sketch.js',
+      '/BPCCC/p5.js',
 
     ])),
 
